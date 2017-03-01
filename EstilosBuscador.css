@@ -1,0 +1,122 @@
+@media screen and (max-width: 480px){
+    
+    #encabezadoBuscador{
+        width: 100%;
+        height: 60px;
+        background-color: #2d3f68;
+        color: white;
+        
+        text-align: center;
+    }
+
+    #titulo{
+        font-size: 20px;
+        
+    }
+    
+    
+    #lblFiltros{
+        font-size: 13px;
+        color: tomato;
+    }
+    
+    
+    #txtCiudad,#txtSede,#txtArea,#txtTipoEquipo,#txtCodEquipo{
+        width: 200px;
+        margin: 2px;
+        padding: 2px;
+        float:right;
+    }
+
+    
+    
+    #DisplayOrdenador{
+        font-size: 12px;
+        display: none;
+    }
+    
+    td{
+        width: 17px;
+    }
+
+    #tdAreaOcultarMovil,#tdTipoEquipoOcultarMovil{
+        display: none;
+    }
+    
+}
+
+
+@media screen and (min-width: 900px){
+   
+    
+    #encabezadoBuscador{
+        margin-top: auto;
+        height: 100px;
+        background: #f4f4f4;
+    }
+    
+    
+    #titulo{
+        margin: 20px;
+        font-weight: bold;
+    }
+    
+
+    #Cuerpo{
+        background: #f4f4f4;
+    }
+        
+    #panelBody{
+        
+        padding: 0px;
+    }
+    
+    #barraExpancion{
+        background: white;
+        margin: auto;
+        
+    }
+    
+    #headingOne{
+        background: white;
+        margin: auto;
+        
+    }
+    
+    #formBuscador{
+    //margin: 10px;
+    //margin-left: 12%;
+    
+    }
+    
+    #DisplayCelulares{
+        display: none;
+    }
+    
+    #panel1{
+        width: 90%;
+        margin: 0 auto;
+        float: none;
+        position: relative;
+        background: #FFFFFF;
+    }
+    
+    #campoCiudad,#campoSede,#CampoArea,#campoTipo_equipo,#campoCod_HV,#campobtn{
+        //margin: 20px;
+        float: left;
+        position: relative;
+        margin-left: 70px;
+        
+    }
+    
+    
+    
+    #txtCiudad,#txtSede,#txtArea,#txtTipoEquipo,#txtCodEquipo{
+        width: 200px;
+        
+    }
+    
+    
+    
+    
+}

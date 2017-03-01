@@ -1,0 +1,48 @@
+@media screen and (max-width:460px){
+    
+    .NombreAlerta{
+        font-size: 20px;
+    }
+    
+}
+
+@media screen and (min-width: 461px) and (max-width:900px){
+    
+    
+    .NombreAlerta{
+        font-size: 16px;
+        
+    }
+    
+    #acordionAlertas{
+        
+        font-size: 19px;
+    }
+}
+
+
+
+@media screen and (min-width: 901px) and (max-width:1100px){
+    
+    
+    .NombreAlerta{
+        font-size: 18px;
+        
+    }
+    
+    
+    
+}
+@media screen and (min-width: 1100px){
+    
+    
+    .NombreAlerta{
+        font-size: 20px;
+        
+    }
+    
+    
+    
+}
+
+

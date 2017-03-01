@@ -1,0 +1,62 @@
+
+
+@media screen AND (min-width:900px){
+    
+    #encabezadoinicio{
+    width: 100%;
+    height: 100px;
+    margin-top: auto;
+    background-color: #f4f4f4;
+    font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+    
+}
+
+
+#FilaDatos{
+    font-size: 12px;
+}
+
+#limiteManto,#limiteVerificacion,#limiteCalibracion,#limiteCalificacion,#limiteOtro{
+    
+    background:#eee;
+    border-radius:10px;
+    padding:1px;
+    margin:2px;
+    
+}
+
+#limiteManto:hover,#limiteVerificacion:hover,#limiteCalibracion:hover,#limiteCalificacion:hover,#limiteOtro:hover{
+    background:#A9E2F3;
+}
+
+
+
+#panel1{
+        width: 100%;
+        margin: 0 auto;
+        float: none;
+        position: relative;
+        background: #FFFFFF;
+    }
+    
+    #anio,#ciudad,#sede,#campoArea,#CampoSub_area,#campoTipo_equipo,#campoCod_HV,#campobtn{
+        //margin: 20px;
+        width: 15%;
+        float: left;
+        position: relative;
+        margin-left: 70px;
+    }
+    
+   
+    
+    
+    #idGenerar{
+        margin-top: 24px;
+        
+    }
+    
+    #txtAnio,#txtCiudad,#txtSede,#txtArea,#txtTipoEquipo,#txtCodEquipo{
+        width: 160px;
+    }
+
+}

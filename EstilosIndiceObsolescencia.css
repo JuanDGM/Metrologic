@@ -1,0 +1,45 @@
+
+
+@media screen and (min-width:1200px){
+
+   html,body{
+            margin: 0px;
+            height: 100%;
+        }
+    
+    #encabezadoinicio{
+            color: black;
+            height: 100px;
+            width: 100%;
+            margin-top: auto;
+        }
+    
+        #Formulario{
+            margin-left: 50px;
+        }
+        
+        #panel{
+            margin-top: 7px;
+            width: 30%;
+            background: white;
+            position: absolute;
+        }
+        
+        
+        
+        #contenedor{
+            width: 70%;
+            float: right;
+            position: relative;
+            height: 100%;
+            background: #f4f4f4;
+        }
+        
+         #logo{
+            width: 80%;
+            margin: 10%;
+        }
+        
+    
+    
+}

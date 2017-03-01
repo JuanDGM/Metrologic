@@ -1,0 +1,103 @@
+
+    @media screen and (max-width: 480px){
+     #Cuerpo{
+            background: #f4f4f4;
+        }
+
+        #franjaColores{
+        padding: 0px;    
+            
+        }
+        
+        #margen{
+            display: none;
+            
+        }
+        
+        #imagenLogo{
+            text-align: center;
+            padding: 40px;
+            
+        }
+        
+        #logo{
+            
+            width: 300px;
+            
+        }
+        
+        #ContornoInicioCuenta{
+           
+            margin: 0 auto;
+            width: 90%;
+            padding: 40px;
+            background: #fff;
+            border-radius: 15px;
+            font-family: 'Muli', sans-serif;
+        }
+
+        #piePagina{
+        width: 100%;
+        bottom:0;
+        background: black;    
+        position: absolute;
+        height: 40px;
+        color:#fff;
+        }
+    
+        #textoInicio{
+            font-size: 20px;
+            text-align: center;
+            font-family: 'Strait', sans-serif;
+        }
+        
+    }
+    
+    
+    @media screen and (min-width: 481px){
+        
+        #Cuerpo{
+            background: #f4f4f4;
+        }
+
+        #franjaColores{
+        padding: 0px;    
+            
+        }
+        
+        #imagenLogo{
+            text-align: center;
+            padding: 40px;
+            
+        }
+        
+        #logo{
+            width: 400px;
+            
+        }
+        
+        #ContornoInicioCuenta{
+           
+            margin: 0 auto;
+            width: 450px;
+            padding: 40px;
+            background: #fff;
+            border-radius: 15px;
+            font-family: 'Muli', sans-serif;
+        }
+
+        #piePagina{
+        width: 100%;
+        bottom:0;
+        background: black;    
+        position: absolute;
+        height: 40px;
+        color:#fff;
+        }
+    
+        #textoInicio{
+            font-size: 30px;
+            text-align: center;
+            font-family: 'Strait', sans-serif;
+        }
+    }

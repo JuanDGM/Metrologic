@@ -1,0 +1,46 @@
+
+@media screen AND (max-width: 480px){
+    
+    #CantenedorTablaOrdenador{
+       
+        display: none;
+    }
+    
+    
+    #titulo{
+    font-size: 17px;    
+    font-weight: bold;    
+    }
+    
+    
+   
+}
+
+@media screen AND (min-width: 1200px){
+    
+    #cuerpo{
+        
+        background: #eee;
+    }
+    
+    .container{
+        
+        background: white;
+        border-radius: 20px;
+        padding: 10px;
+    }
+    
+    #CeldaNoOrden{
+        
+        margin-right: 10px;
+        
+    }
+    
+    #DisplayTablaMovil{
+        
+        display: none;
+        
+        
+    }
+    
+}

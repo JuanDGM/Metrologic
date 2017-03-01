@@ -1,0 +1,39 @@
+@media screen AND (min-width:900px){
+    
+    #cuerpoDetalleFalla{
+        background: #f4f4f4;
+    }
+    
+    #titulo{
+        margin-left: 30px;
+    }
+ 
+    #enlanceAcordeon{
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    #barraExpancion,#accordion{
+        width: 1000px;
+        background: white;
+        margin: auto;
+        border: none;
+    }
+    .panel panel-default,#FormularioSolicitudProgramacion{
+        
+        width: 90%;
+        margin: auto;
+        padding: 0px;
+       text-align: center;
+       font-weight: bold;
+        border: none;    
+        
+    }
+    
+    #tablaBuscada1{
+        background: white;
+    }
+    
+    
+}

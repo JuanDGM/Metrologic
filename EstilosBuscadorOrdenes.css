@@ -1,0 +1,63 @@
+
+@media screen AND (max-width:480px){
+    
+    #DisplayOrdenador{
+        
+        display: none;
+        
+    }
+    
+     #encabezadoOrdenes{
+        width: 100%;
+        height: 60px;
+        background-color: #2d3f68;
+        color: white;
+        
+        text-align: center;
+    }
+    
+     #titulo{
+        font-size: 20px;
+        
+    }
+    
+}
+
+@media screen AND (min-width:900px){
+    
+    #FormularioListaOrdenes{
+        margin-left: 2.5%;
+        
+    }
+    
+    
+    #encabezadoOrdenes{
+        width: 100%;
+        background: #f4f4f4;
+        height: 100px;
+        margin-top: auto;
+        border-bottom: 1px solid #a3a3a3;
+    }
+    
+    #titulo{
+        margin-left: 40px;
+        
+    }
+    
+    #DisplayCelular{
+        display: none;
+    }   
+    
+    #tableBusquedaOrdenes{
+        width: 1000px;
+        
+    }
+    
+    
+    #DisplayOrdenador{
+        
+        width: 95%;
+        margin: 0 auto;
+        
+    }
+}

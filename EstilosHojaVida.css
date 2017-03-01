@@ -1,0 +1,245 @@
+
+
+@media screen and (max-width: 480px){
+    
+    #cuerpo{
+        margin: 0px;
+        padding: 0px;
+        }
+    
+    #encabezado,#titulo{
+        font-size: 25px;
+        text-align: center;
+        background: #23527c;
+        
+        width: 100%;
+        
+    }
+    
+    #titulo{
+        width: 100%;
+        color:white;
+    }
+    
+   #contorno{
+        
+        margin: auto;
+        }
+    
+        #RecuadroImagenEquipo{
+            max-width: 240px;
+            margin: 10px;
+            padding: 1px;
+            width: 100%;
+        }     
+        
+        
+ #imagen{
+            max-width:200px;
+            max-width: 155px;
+            width: 100%;
+            height: 100%;
+            margin-left: 25%;
+ }
+ #imagen1{
+            //max-width:200px;
+            max-width: 155px;
+            width: 100%;
+            height: 100%;
+            margin-left: 25%;
+ }
+ 
+ 
+ #InformacionGeneral label{
+     
+     font-size: 10px;
+     width: 40%;
+ }
+
+ #InformacionGeneral input{
+     
+    width: 60%;
+    display: inline;
+    float: right;
+ }
+ #collapseTwo label{
+     
+     font-size: 10px;
+     width: 40%;
+ }
+
+ 
+ #collapseTwo input{
+     
+    width: 60%;
+    display: inline;
+    float: right;
+ }
+ #collapseThree label{
+     
+     font-size: 10px;
+     width: 40%;
+ }
+
+ 
+ #collapseThree input{
+     
+    width: 60%;
+    display: inline;
+    float: right;
+ }
+ 
+ #collapseFour label{
+     
+     font-size: 10px;
+     width: 40%;
+     
+ }
+
+ 
+ #collapseFour input{
+     
+    width: 70%;
+    display: inline;
+    float: next;
+    }
+ 
+ 
+}
+
+
+@media screen and (min-width: 900px){
+    
+    
+    #cuerpo{
+        //background-color: #eee;
+        }  
+    
+        #regreso{
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+        }
+        
+        #contornoHV{
+        width: 70%;
+        margin: auto;
+        }
+        
+        #encabezado{
+            background-color: #f4f4f4;
+            height: 100px;
+            width: 100%;
+            margin-top: auto;
+            border-bottom: 1px solid #a3a3a3;
+        }
+        
+        
+        #encabezadoinicio{
+            width: 100%;
+            height: 0 auto;
+            margin: 0 auto;
+            //background-color: #337ab7;
+           background-color: #2d3f68;
+            //background-color: green;
+
+            font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+            //border-radius: 15px;
+        }
+        
+        #contenedor1{
+            
+            //margin: 1em 20%;
+            position: relative;
+            margin-left: 60px;
+        }
+        
+        #contenedorImagen{
+            width: 50%;
+            float: left;
+                
+            
+        }
+        
+        #InformacionGeneral{
+            width: 50%;
+            float: left;
+            
+        }
+        
+        
+        #RecuadroImagenEquipo{
+            //margin-right: 100%;
+            max-width:290px; 
+            height:245px;
+            margin: 0 auto;
+            width: 100%;
+        }
+        
+        #imagen{
+            max-width:280px;
+            max-height: 235px;
+            width: 100%;
+            height: 100%;
+            
+        }
+        #imagen1{
+            max-width:280px;
+            max-height: 235px;
+            width: 100%;
+            height: 100%;
+            
+        }
+        
+
+#barraExpancion1:hover,#barraExpancion2:hover,#barraExpancion3:hover,#barraExpancion4:hover,#barraExpancion5:hover,#barraExpancion6:hover,#barraExpancion7:hover,#barraExpancion8:hover{
+    background-color: #859DAD;
+    //background-color: #2d3f68;
+    color: white;
+cursor: pointer;
+}  
+ 
+
+ #collapseThree label{
+     
+     //font-size: 10px;
+     width: 40%;
+ }
+
+ 
+ #collapseThree input{
+     
+    width: 60%;
+    display: inline;
+    float: right;
+ }
+ 
+  #collapseFour input{
+     
+    width: 70px;
+    display: inline;
+    float: next;
+    margin:1px;
+  }
+
+ 
+ 
+ #collapseFour label{
+     
+     //font-size: 10px;
+     width: 40%;
+ }
+
+ 
+ #tablaIntervenciones{
+  margin: 0 auto;
+  padding: 3px;
+     
+ }
+ 
+ .celdaTitulo{
+     
+     height: auto;
+     text-align: center;
+ }
+}

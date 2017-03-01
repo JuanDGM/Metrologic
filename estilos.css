@@ -1,0 +1,72 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    margin: auto;
+}
+
+#contorno{
+    width: 70%;
+    margin: auto;
+}
+
+
+#contorno1{
+    width: 90%;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+#encabezadoinicio{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    //background-color: #337ab7;
+   //background-color: #2d3f68;
+   background-color: #2D5992;
+   
+   
+   
+   //background-color: green;
+    
+    font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+    //border-radius: 15px;
+    
+}
+
+#btnParametros{
+    //margin-right:100px;
+    margin-top: 50px;
+}
+
+#menuprincipal{
+    margin: auto;
+}
+
+
+#regreso{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#FiltrosInformes{
+    width: 80%;
+    height: 70px;
+    margin: auto;
+}
+
+     
+
+.mensajeAdjunto{
+    border: dashed 1px red;
+    background-color: #FFC6C7;
+    color: #000000;
+    padding: 10px;
+    text-align: left;
+    margin: 10px auto;
+    display: none;
+}    
+    

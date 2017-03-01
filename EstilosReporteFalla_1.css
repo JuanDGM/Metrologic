@@ -1,0 +1,105 @@
+
+@media screen and (max-width: 480px){
+
+#titulo{
+font-size: 15px;
+
+}
+
+
+#nohoja, #contenedornombreEquipo,#contenedorArea{
+   width: 90%;
+  
+   }
+    
+    #contenedorImagenEquipo,#lblCodReporte{
+       text-align: center;
+       margin: 0 auto;
+       width: 75%;
+float:left;
+    } 
+    
+    #lblCodReporte{
+      font-size: 15px;
+     
+    }
+    
+    #Primeros3btn{
+       float: left;
+    }
+    
+    #imgenResponsive{
+    float: left;
+   margin-top: 35px;
+   width:33%;
+margin:0px;
+    }
+    
+ //   #contenedorEstadoActual,#lblEstadoActual{
+ //    position: relative;   
+        
+//    }
+    
+    
+}
+
+
+
+
+
+@media screen AND (min-width:1200px){
+    
+    #formularioReporte{
+        max-width: 1300px;
+        margin: 0 auto;
+        display: table;
+        border: 1px solid #999;
+        border-radius: 20px;
+        box-shadow: 6px 7px 8px #777;
+    }
+    
+    #Fila1,#Fila2,#Fila3,#Fila4{
+       width: 90%;
+       float: left;
+       position: relative
+       //display: inline-block; 
+    }
+    
+    #contenedorCodigoHv,#contenedornombreEquipo,#contenedorArea,#contenedorImagenEquipo{
+        float: left;
+        margin: 4px;
+    }
+    
+    #contenedorEstadoActual,#contenedorFechaEquipo,#contenedorPrioridaAtencion,#contenedorNombreReporta{
+        float: left;
+        margin: 10px;
+    }
+    
+    #ContenedorDescripcion{
+     float: left;   
+    }
+    
+    #nohoja,#nombreequiporeporte,#Areareporte,#estadoActual,#fechaFalla,#prioridad,#nombreReporta{
+        width: 200px;
+    }
+    
+    #descripcion{
+        width: 900px;
+    }
+
+
+    #imagen{
+        
+        width: 100px;
+        height: 90px;
+    }
+    
+    #Imagen_Del_Equipo{
+        width: 90%;
+        height: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+}
+

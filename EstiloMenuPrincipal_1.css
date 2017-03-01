@@ -1,0 +1,123 @@
+
+
+@media screen and (max-width: 480px){
+        
+        #tituloPrincipal{
+            font-size: 20px;
+            color: white;
+        }
+    
+        small{
+            display: none;
+        }
+        
+        #Usuario, #idDropdown{
+            display: none;
+        }
+
+        
+        #alertas{
+            display: block;
+            width: 90%;
+            //float: right;
+            position: relative;
+            margin:0 auto;
+        }
+        
+        #acordionAlertas{
+            background: #555;
+            color:white;
+            border-radius: 10px;
+            padding: 5px;
+        }   
+        
+        #tablaOcultar{
+            height: 1px;
+            display: none;
+        }
+        
+        #ordenesTrabajo{
+            width: 30%;
+            height: 135px;
+            float: left;
+            position: relative;
+        }
+        
+        #reporteIntervencionMenu{
+            width: 30%;
+            height: 135px;
+            float: left;
+            position: relative;
+        }
+        
+        #buscarEquipo,#crearHojaVida,#ReportarFalla,#cronogramasIntervencion{
+           width: 30%;
+           height: 135px;
+           //float: left;
+           position: relative;
+        }
+        }
+    
+    @media screen and (min-width:900px){
+        
+    #alertas,#buscarEquipo,#crearHojaVida,#ordenesTrabajo,#reporteIntervencionMenu,#ReportarFalla,#cronogramasIntervencion{
+    
+    width: 15%;
+    height: 250px;
+    margin: 2px;
+    position: relative;
+    }    
+
+        #encabezadoinicio{
+            height: 20px;
+            //background: #2D5992;
+            background: #eee;
+        }
+        
+        #tituloPrincipal{
+            
+            color: white;
+            padding: 5px;
+            font-size: 38px;
+        }
+        
+        #alertas{
+            width: 300px;
+            float: left;
+            position: relative;
+            
+        }
+        
+        #tablaOcultar{
+            height: 1px;
+            display: block;
+            visibility: visible;
+        }
+        
+        #ordenesTrabajo{
+        width: 300px;    
+        float: left;    
+        }    
+        
+        #reporteIntervencionMenu{
+        width: 300px;    
+        float: left;
+        }
+        
+        #Fila1{
+            margin: 5px;
+            width: auto;
+            position: relative;
+            display: inline-table;
+        }
+        
+        #Fila2{
+            margin: 5px;
+            padding: 5px;
+            width: 100%;
+            position: relative;
+            display: inline-table;
+        }
+        
+        
+    }

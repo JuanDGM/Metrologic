@@ -1,0 +1,41 @@
+
+
+@media screen and (max-width:480px){
+    #marco{
+        
+        font-size: 50px;
+        
+        
+    }
+   
+     #msj{
+        font-size: 30px;
+        
+    }
+    
+    #btnContinuar{
+        
+        width: 70%;
+        
+    }
+}
+
+
+@media screen and (min-width:900px){
+    
+    #marco{
+        width: 1000px;
+        margin: auto;
+        margin-top: 100px;
+        border-radius: 15px;
+        padding: 10px;;
+        
+    }
+    
+    #msj{
+        font-size: 60px;
+        
+    }
+    
+    
+}

@@ -1,0 +1,33 @@
+
+
+@media screen and (min-width: 900px){
+    
+    #formBuscador{
+        position: relative;
+        margin: 100px;
+    }
+    
+    #ContenedorGraficos{
+        position: relative;
+        
+    }
+    
+    #campoSede,#campoArea,#CampoSub_area,#campoTipo_equipo,#campoCod_HV,#campobtn{
+        margin: 20px;
+        float: left;
+        position: relative;
+        margin-left: 70px;
+    }
+    
+    
+    
+    #txtSede,#txtArea,#txtSubArea,#txtTipoEquipo,#txtCodEquipo{
+       width: 200px;
+        
+    }
+    
+    
+    
+    
+    
+}

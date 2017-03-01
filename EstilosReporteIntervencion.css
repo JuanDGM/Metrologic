@@ -1,0 +1,166 @@
+
+@media screen and (max-width: 480px){
+    
+    #encabezado{
+        background: #23527c;
+    }
+    
+    #titulo{
+        font-size: 20px;
+        text-align: center;
+        color: white;
+    }
+    
+    #formularioReporte input{
+        width: 100%;
+        //float: right;
+    }
+        
+    #formularioReporte label{
+     
+     font-size: 10px;
+     width: 80%;
+    }
+
+    
+    #etiquetaCodigoEquipo{
+       font-size: 100%;
+    }
+    
+    img{
+     width: 90%;
+     margin: 0 auto;
+     float: next;
+    }
+ 
+ #Elemento1{
+     float: right;
+     width: 50%;
+     position: relative;
+ }
+ 
+ #Elemento2{
+     float: right;
+     width: 50%;
+     position: relative;
+ }
+ }
+
+@media screen and (min-width: 900px){
+    
+    #cuerpo{
+        background: #FAFAFA;
+    }
+    
+    #encabezado{
+        width: 100%;
+          border-bottom: 1px solid #a3a3a3;
+        
+/*        padding: 5px;
+        height: 100px;
+        background: #2D5992;
+        //background: #2d3f68;
+        color: white;
+        border-radius: 20px 20px 0px 0px;*/
+    }
+    
+    #titulo{
+        font-weight: bold;
+        font-family: inherit;
+        
+    }
+    
+    #buscarReportes{
+        width: 30%;
+        background: white;
+        position: relative;
+        float: left;
+        height: 100%;
+    }
+    
+    #imagenLogo{
+         text-align: center;
+        }
+        
+        #logo{
+            width: 80%;
+            margin: 10%;
+        }
+    
+    
+    html,body{
+        margin: 0px;
+        height: 100%;
+    }
+    
+    #contorno{
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 20px;
+    float: left;
+    position: relative;
+    }
+    
+    #fila1{
+        width: 40%;
+    }
+
+    #Elemento1{
+        width: 60%;
+        float:left;
+    }
+    
+    #Elemento2{
+        width: 40%;
+        float: left;
+    }
+    
+    #Elemento3{
+        width: 100%;
+    }
+    
+    #nombreproveedor,#ListaEstadoEquipo,#nombrerecibe,#Costo{
+        float: left;
+    }
+    
+    
+    #ListaEstadoEquipo{
+     width: 200px;
+     
+     }
+     
+     #contenedorFechaIntervencion,#contenedorNombreTecnico,#contenedorNombreRecibe{
+         margin-left: 50%;
+     }
+     
+    #imagenEquipo{
+        float: left;
+    }
+    
+    #formularioReporte input{
+        width: 200px;
+        }
+    
+    #SelectEstadoEquipo, #selectdata{
+    width: 200px;
+    float: left;
+    position: relative;
+    }
+    
+    #formularioReporte label{
+     font-size: 13px;
+     position: relative;
+        float: left;
+     width: 150px;
+ }
+ 
+ #etiquetaCodigoEquipo{
+       font-size: 200%;
+    }
+ 
+ img{
+     width: 150px;
+     margin: 0 auto;
+ }
+ 
+}

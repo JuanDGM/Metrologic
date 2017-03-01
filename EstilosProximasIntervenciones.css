@@ -1,0 +1,63 @@
+
+@media screen AND (min-width:900px){
+
+    #titulo{
+    //padding: 30px;
+    }
+    
+    #Titulos{
+        
+        margin-left: 30px;
+    }
+    
+    #cuerpo{
+        background: #f4f4f4;
+        
+    }
+    
+    #panelDefault{
+        border:none;
+        border-color: #ddd;
+        
+    }
+    
+    #barraExpancion,#accordion{
+        width: 1000px;
+        background: white;
+        margin: auto;
+        border: none;
+    }
+    
+    #enlanceAcordeon{
+        
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 20px;
+        
+    }
+    
+    
+    .panel panel-default,#FormularioSolicitudProgramacion{
+        width: 90%;
+        margin: auto;
+        padding: 0px;
+        text-align: center;
+        //background: white;
+        font-weight: bold;
+        border: none;    
+    }
+    
+    #tablaDatosProgramar{
+        padding: 10px;
+        margin: 0px;
+        width: 1000px;
+        background: #f4f4f4;
+        border: none;
+    }
+    
+    
+    #tablaBuscada1{
+        background: white;
+        width: 1000px;
+    }
+}

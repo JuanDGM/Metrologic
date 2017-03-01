@@ -1,0 +1,83 @@
+@media screen and (max-width: 680px){
+
+#titulo{
+
+  color: red;
+  text-align: center;
+}
+  
+    body{
+        background-color: white;
+    }
+    
+
+  #margen{
+    border: 1px solid #555;
+    width: 95%;
+    margin: 0 auto;
+    padding:5px;
+    border-radius: 10px;
+    background-color: #eee;
+    font-size: 10px;
+    }
+
+#listaTipoEquipos{
+width: 100%;
+margin:5px;
+height: 40px;
+  }  
+
+#txtAsignado{  
+   
+   width: 100%;
+   height: 40px;
+   text-align: center;
+   margin:5px;
+}
+
+}
+
+@media screen and (min-width:1200px){
+
+     #titulo{
+
+      text-align: center;
+    }
+
+
+
+    #margen{
+
+ border: 1px solid #eee;
+ width: 100%;
+ //height: 300px;
+ margin: auto;
+ padding: 15px;
+ 
+background-color: #eee;
+    
+    }
+    
+    body{
+         
+ background-color: #859DAD;        
+    }
+ 
+
+#listaTipoEquipos{
+width: 200px;
+margin:5px;
+height: 40px;
+
+  }
+ 
+
+#inputModificar{  
+margin:5px;
+width: 200px;
+height: 40px;
+text-align: center;
+}
+
+}
+ 

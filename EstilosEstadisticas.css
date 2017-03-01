@@ -1,0 +1,67 @@
+@media screen AND (min-width:900px){
+     html,body{
+            margin: 0px;
+            height: 100%;
+        }
+    
+    #logo{
+            width: 80%;
+            margin: 10%;
+        }
+        
+    #contenedorMenu{
+        width: 30%;
+        height: 100%;
+        float: left;
+        position: absolute;
+    }
+    
+    #ContenedorGraficos{
+        background: #f4f4f4;
+        width: 70%;
+        height: 100%;
+        float: right;
+        position: relative;
+    }
+    
+    #encabezadoinicio{
+    width: 100%;
+    height: 100px;
+    margin-top: auto;
+    //background-color: #2D5992;
+    font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+    }
+
+    #FilaDatos{
+    font-size: 12px;
+    }
+
+    #IndicadoresInventarioEquipos{
+    width: 95%;
+    border: 1px #eee solid;
+    margin-top: 300px;
+    margin: auto;
+    border-radius: 10px;
+    }
+
+    #IndicadoresCronogramas{
+    width: 95%;
+    border: 1px #eee solid;
+    margin-top: 300px;
+    margin: auto;
+    border-radius: 10px;
+    }
+
+    #IndicadoresSolicitudes{
+    width: 95%;
+    border: 1px #eee solid;
+    float: right;
+    margin: auto;
+    padding: 10px;
+    display: none;
+    }
+
+    #btnInventarios, #btnCronogramas,#btnSolicitudes,#btnDesempeno,#btnGastos{
+    font-size: 20px;
+    }
+}

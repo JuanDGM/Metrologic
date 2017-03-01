@@ -1,0 +1,170 @@
+
+@media screen and (max-width: 480px){
+
+#cuerpo{
+        background: #f4f4f4;
+        margin: 0px;
+        padding: 0px;
+        height: 100%;
+        margin-top: -40px;
+    }    
+    
+    
+    #titulo{
+font-size: 15px;
+font-weight: bold;
+}
+
+#Primeros3btn input{
+    width: 60%;
+    display: inline;
+    float: right;
+ }
+ #Primeros3btn label{
+     font-size: 10px;
+     width: 40%;
+ }   
+    
+ #imgenResponsive{
+     width: 30%;
+     height: 30%;
+ }
+ 
+ 
+ 
+ 
+ 
+ #estadoActual, #fechaFalla,#prioridad,#nombreReporta{
+    width: 60%;
+    display: inline;
+    float: right;
+ }
+     
+ 
+ label{
+     font-size: 10px;
+     width: 40%;
+ }
+ 
+ 
+ #lblCodReporte{
+     font-size: 20px;
+ }
+
+ #contenedorImagen{
+     float: left;
+ }
+}
+
+
+
+
+
+@media screen AND (min-width:900px){
+    
+    #cuerpo{
+        background: #f4f4f4;
+        margin: 0px;
+        padding: 0px;
+        height: 100%;
+        
+    }    
+ 
+    html,body{
+        margin: 0px;
+        height: 100%;
+    }
+    
+    #bordeBlanco{
+        width: 30%;
+        height: 100%;
+        float: left;
+        background: #fff;
+        float: left;
+    }
+    
+    #contenedorFormulario{
+        width: 70%;
+        height: 100%;
+        float: left;
+        background: #f4f4f4;
+        float: left;  
+            
+        }
+    
+    
+    #franjaColores{
+        //margin-top: -100px;
+        
+    }
+    
+   
+        
+        #imagenLogo{
+         text-align: center;
+        }
+        
+        #logo{
+            width: 80%;
+            margin: 10%;
+        }
+    
+        
+        
+        #encabezadoinicio{
+          width: 100%;
+          border-bottom: 1px solid #a3a3a3;
+        }
+        
+        
+    #titulo{
+        font-weight: bold;        
+        margin-left: 30px;
+        margin-top: 100px;
+        
+    }
+    
+       
+    #contenedorFormulario{
+        margin-left: 3%;
+        float: right;
+        position: relative;
+        width: 67%;
+        margin-top: 0px;
+    }
+        
+    #imgenResponsive{
+        
+        height: 100px;
+        
+    }
+    
+    #Imagen_Del_Equipo{
+        width: 100px;
+        height: 100px;
+        
+    }
+    
+    
+    #nohoja,#nombreequiporeporte,#Areareporte,#estadoActual,#fechaFalla,#prioridad,#nombreReporta{
+        width: 200px;
+        
+    }
+   
+    
+    #contenedorCodigoHv,#contenedornombreEquipo,#contenedorArea,#contenedorEstadoActual,#contenedorFechaEquipo,#contenedorPrioridaAtencion,#contenedorNombreReporta,#ContenedorDescripcion{
+        float: left;
+        position: relative;
+        margin: 10px;
+        padding: 1px;
+        
+    }
+    
+    #ContenedorDescripcion,#descripcion{
+        width: 87%;
+        
+    }
+    
+    
+}
+
